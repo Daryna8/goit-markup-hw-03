@@ -17,8 +17,43 @@ body {
     background-color: var(--SECONDARY-COLOR);
 }
 
+h1, h2, h3, h4, h5, h6, p {
+margin: 0;
+}
+
+img {
+    display: block;
+}
+
+.visually-hidden {
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+    
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+
+ .container {
+     max-width: 1158px;
+     padding-left: 15px;
+     padding-right: 15px;
+     margin: auto; 
+ }
+
+ .header-container {
+    display: flex; 
+ }
+
 .list {
     list-style: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 .link {
@@ -80,6 +115,21 @@ body {
     color: var(--OCEAN);
 }
 
+.hero {
+    padding: 188px 472px 292px 472px;
+    background-color: var(--NAVY-BLUE);
+}
+
+.hero-title {
+    width: 496px;
+    color: var(--WHITE);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    margin-bottom: 48px;
+}
 .modal-btn {
     color: var(--WHITE);
     font-family: var(--PRIMARY-FONT);
@@ -89,25 +139,20 @@ body {
     letter-spacing: 0.64px;
     background-color: var(--IRIS);
     cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    margin: 0 auto;
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
     background-color: var(--OCEAN);
     color: var(--WHITE);
-}
-
-.hero {
-    background-color: var(--NAVY-BLUE);
-}
-
-.hero-title {
-    color: var(--WHITE);
-    text-align: center;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
 }
 
 .team {
