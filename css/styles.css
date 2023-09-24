@@ -107,7 +107,6 @@ button {
 
 .section-subtitle {
   margin-bottom: 8px;
-  text-align: center;
 
   color: var(--NAVY-BLUE);
   font-size: 20px;
@@ -117,8 +116,6 @@ button {
 }
 
 .section-description {
-  text-align: center;
-
   color: var(--SLATE);
   font-size: 16px;
   font-weight: 400;
@@ -172,21 +169,16 @@ button {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-
-  display: flex;
-  align-items: center;
-  margin-right: 76px;
 }
 
 .header-list {
   display: flex;
   gap: 40px;
+  margin-left: 76px;
 }
 
 .list {
   list-style: none;
-  margin: 0;
-  padding-left: 0;
 }
 
 .link {
@@ -328,6 +320,7 @@ button {
 }
 
 .team-member-info {
+  text-align: center;
   padding: 32px 0;
 }
 
@@ -341,7 +334,7 @@ button {
   background-color: var(--NAVY-BLUE);
 }
 
-.logo-footer {
+.footer-logo {
   color: var(--IRIS);
   font-family: var(--SECONDARY-FONT);
   font-size: 18px;
@@ -352,9 +345,7 @@ button {
   text-transform: uppercase;
 
   display: inline-block;
-  align-items: center;
-  margin-bottom: 16px;
-  margin-right: 76px;
+  margin-bottom: 17.5px;
 }
 
 .footer-accent {
@@ -369,8 +360,6 @@ button {
 
 .footer-description {
   width: 264px;
-  margin-top: 17.5px;
-
   color: var(--CLOUD);
   font-size: 16px;
   font-weight: 400;
@@ -395,7 +384,6 @@ button {
   background: var(--CLOUD);
   cursor: pointer;
 
-  margin-top: 96px;
   padding: 12px 24px;
   border: 1px solid var(--CORNFLOWER);
   border-radius: 4px;
@@ -422,7 +410,6 @@ button {
 .portfolio-list {
   --items: 3;
   --indent-col: 16px;
-  margin-top: 72px;
   column-gap: 24px;
   row-gap: 48px;
 }
@@ -442,5 +429,4 @@ button {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
